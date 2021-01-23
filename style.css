@@ -83,4 +83,36 @@ h1 {
 
 .links:hover {
   background-color: azure;
+  animation-name: c;
+  animation-duration: 0.45s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.l {
+  color: cornflowerblue;
+}
+
+.l:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@keyframes c {
+  0% {
+    opacity: 0;
+  }
+  
+  100% {
+    opacity: 1;
+  }
 }
